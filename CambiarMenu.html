@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Cambiar Menu</title>
+	 <SCRIPT LANGUAGE="JavaScript" src="CambiarMenu.js"></script>
+</head>
+<body>
+   <center>
+     <form ACTION="" METHOD="POST">
+      <table border="0">
+        <tr>
+        <td><select multiple size="5" name="list1">
+              <option value="11"> item 1.1 </option>
+              <option value="12"> item 1.2 </option>
+              <option value="13"> item 1.3 </option>
+        </select></td>
+       <td>
+         <input type="button" value="   >>   " onclick="mover(this.form.list1,this.form.list2)" name="B1"><br>
+         <input type="button" value="   <<   " onclick="mover(this.form.list2,this.form.list1)" name="B2">
+       </td>
+       <td><select multiple size="5" name="list2">
+            <option value="21"> item 2.1 </option>
+            <option value="22"> item 2.2 </option>
+            <option value="23"> item 2.3 </option>
+           </select></td>
+       </tr>
+      </table>
+     </form>
+   </center>
+
+</body>
+</html>
